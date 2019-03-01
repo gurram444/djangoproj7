@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+<table border="2">
+<tr><th>typeof operation</th><th>result</th></tr>
+
+{% for k,v in result.items %}
+    <tr><td>{{ k|upper }}</td><td>{{ v }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
